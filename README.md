@@ -23,13 +23,13 @@
     # TCP Flag	tcpdump Flag	Meaning
     #   SYN	        S	        Syn packet, a session establishment request.
     #   ACK	        A	        Ack packet, acknowledge sender’s data.
-    #   FIN	        F	        Finish flag, indication of termination.
-    #   RESET	    R	        Reset, indication of immediate abort of conn.
-    #   PUSH	    P	        Push, immediate push of data from sender.
-    #   URGENT	    U	        Urgent, takes precedence over other data.
-    #   NONE	  A dot .	    Placeholder, usually used for ACK.
-    #   ECE-Echo    E           ECN: Explicit Congestion Notification
-    #   ECN CWR     W           CWR: Congestion Window Reduced
+    #   FIN         F	        Finish flag, indication of termination.
+    #   RESET       R	        Reset, indication of immediate abort of conn.
+    #   PUSH        P	        Push, immediate push of data from sender.
+    #   URGENT      U	        Urgent, takes precedence over other data.
+    #   NONE     A dot .            Placeholder, usually used for ACK.
+    #   ECE-Echo    E               ECN: Explicit Congestion Notification
+    #   ECN CWR     W               CWR: Congestion Window Reduced
     # ------------------------------------------------------------------------------
     # Tcpflags are some combination of S (SYN), F (FIN), P (PUSH), R (RST), U (URG),
     # W (ECN CWR), E (ECN-Echo) or `.' (ACK), or `none' if no flags are set.
